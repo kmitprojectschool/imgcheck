@@ -11,7 +11,7 @@ const MyGrid = () => {
               <img className="img-thumbnail" src={one}/> 
         </div>
         <div className="col-sm-4">
-            <img className="img-thumbnail" src="./img-local/2.jpg"/>
+            <img className="img-thumbnail" src="/imgs-public/1.jpg"/>
         </div>
         <div className="col-sm-4">
             <img className="img-thumbnail" src="img-local/3.jpg"/>
