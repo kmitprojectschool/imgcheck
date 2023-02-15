@@ -1,5 +1,6 @@
 import React from 'react';
 import one from './img-local/1.jpg'  // image path is relative to this file//
+import imgx from 'imgs-public'
 
 const MyGrid = () => {
     return (
@@ -11,7 +12,7 @@ const MyGrid = () => {
               <img className="img-thumbnail" src={one}/> 
         </div>
         <div className="col-sm-4">
-            <img className="img-thumbnail" src="./imgs-public/1.jpg"/>
+            <img className="img-thumbnail" src="{imgx/1.jpg"/>
         </div>
         <div className="col-sm-4">
             <img className="img-thumbnail" src="img-local/3.jpg"/>
